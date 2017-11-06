@@ -103,11 +103,11 @@ int main() {
     }
 
     //class Date
-    //int d, m, y;
-    //cin >> d >> m >> y;
-    //Date d1(d, m, y);
+    int d, m, y;
+    cin >> d >> m >> y;
+    Date d1(d, m, y);
     Date d2(7, 11, 2017);
-    //cout << d1.GetYear() << "\n";
+    cout << d1.GetYear() << "\n";
 
     //maps
     map<string, int> freqs;
